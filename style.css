@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav ul{
+    margin-top: 0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.63);
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 3%;
+    padding: 12px 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: rgb(255,255,255);
+    border: 1px solid black;
+}
+.form-container{
+    backface-visibility: hidden;
+}
+h1{
+    margin-left: 155px;
+}
+.login-form input, button{
+    font-weight: 500;
+    font-size: 22px;
+    border: 2px sold balck;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin: 10px 20px;
+    width: 270px;
+    margin-left: 60px;
+}
+.login-form input:focus{
+    font-weight: 600;
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+
+}
+.login-form{
+    background-color: rgb(255, 255, 255, .2);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 420px
+}
+.login-form button{
+    width: 100px;
+    margin-left: 155px;
+}
+.login-form button:hover{
+    color:white;
+    background-color: black;
+}
+.login-form button:active{
+    color:white;
+    background-color: red;
+}
+#user-info{
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    background-color:rgba(255, 255, 255, 0.63);
+    margin-top: 10%;
+    padding: 15px 0;
+}
+footer p{
+    margin-left: 40%;
+}
